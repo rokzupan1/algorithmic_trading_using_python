@@ -1,6 +1,6 @@
-# Course Overview
+# [Course Overview](https://www.youtube.com/watch?v=xfzGZB4HhEE&t=18s)
 
-## 1, Algorithmic Trading Basics
+## 1. Algorithmic Trading Basics
 **Algorithmic trading** means using computer to make investment decisions. There are many different types of algorithmic trading. The main difference is their speed of execution. Here are some of the main players in the algorithmic trading landscape:
 * Renaissance Technologies: $165B in AUM
 * AQR Capital Management: $61B in AUM
@@ -31,7 +31,7 @@ An API is an Application Programming Interface. API allow you to interact with s
 The S&P 500 is the world's most popular stock market index. If you own this fund you own 500 largest companies in the US. This index is market capitalization-weighted. This means that larger companies get a correspondingly larger weight in the index. In the first project of this course, we will build an alternative version of the S&P 500 Index fund where each company has the same weighting. 
 Problems I encounter: 
 * The https://iexcloud.io/ doesn't allow the sandbox version used in tutorial. Solution: I had to signed up and use a private_key. The benefit was that I got real numbers and not randomized number. 
-* I had to rename secrets file to secret where I held my private key (because)[https://stackoverflow.com/questions/73055157/what-does-importerror-cannot-import-name-randbits-mean]
+* I had to rename secrets file to secret where I held my private key [because](https://stackoverflow.com/questions/73055157/what-does-importerror-cannot-import-name-randbits-mean)
 * When importing for example: from secret import IEX_CLOUD_API_TOKEN, and you changed the variable IEX_CLOUD_API_TOKEN you have to run the kernel of the file in which   you import so it is refreshed.
 
 ## 4. Project 2: Quantitative Momentum Screener
