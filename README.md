@@ -31,7 +31,14 @@ An API is an Application Programming Interface. API allow you to interact with s
 The S&P 500 is the world's most popular stock market index. If you own this fund you own 500 largest companies in the US. This index is market capitalization-weighted. This means that larger companies get a correspondingly larger weight in the index. In the first project of this course, we will build an alternative version of the S&P 500 Index fund where each company has the same weighting. 
 
 ## 4. Project 2: Quantitative Momentum Screener
-Momentum
+Momentum investing means investing in assets that have increased in price the most.
+
 ## 5. Project 3: Quantitatve Value Screener
+Value investing means investing in stocks that are trading below their perceived intrinsic value. Creating algorithmic value investing strategies relies on a concept called multiples. Multiples are calculated by dividing a company's stock price by some measure of the company's worth - like earnings or assets. Here are a few examples of common multiple used in value investing:
+* Price-to-earnings
+* Price-to-book-value
+* Price-to-free-cash-flow
+Each of the individual multiples used by value investors has its pros and cons. One way to minimize the impact of any specific multiple is by using a composite. We'll use a composite of 5 different value investing metrics in our strategy.
+
 
 
