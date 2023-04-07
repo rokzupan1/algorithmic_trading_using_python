@@ -29,6 +29,10 @@ An API is an Application Programming Interface. API allow you to interact with s
 
 ## 3. Project 1: Equal-Weight S&P 500 Screener
 The S&P 500 is the world's most popular stock market index. If you own this fund you own 500 largest companies in the US. This index is market capitalization-weighted. This means that larger companies get a correspondingly larger weight in the index. In the first project of this course, we will build an alternative version of the S&P 500 Index fund where each company has the same weighting. 
+Problems I encounter: 
+* The https://iexcloud.io/ doesn't allow the sandbox version used in tutorial. Solution: I had to signed up and use a private_key. The benefit was that I got real numbers and not randomized number. 
+* I had to rename secrets file to secret where I held my private key (because)[https://stackoverflow.com/questions/73055157/what-does-importerror-cannot-import-name-randbits-mean]
+* When importing for example: from secret import IEX_CLOUD_API_TOKEN, and you changed the variable IEX_CLOUD_API_TOKEN you have to run the kernel of the file in which   you import so it is refreshed.
 
 ## 4. Project 2: Quantitative Momentum Screener
 Momentum investing means investing in assets that have increased in price the most.
