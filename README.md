@@ -33,6 +33,8 @@ Problems I encounter:
 * The https://iexcloud.io/ doesn't allow the sandbox version used in tutorial. Solution: I had to signed up and use a private_key. The benefit was that I got real numbers and not randomized number. 
 * I had to rename secrets file to secret where I held my private key [because](https://stackoverflow.com/questions/73055157/what-does-importerror-cannot-import-name-randbits-mean)
 * When importing for example: from secret import IEX_CLOUD_API_TOKEN, and you changed the variable IEX_CLOUD_API_TOKEN you have to run the kernel of the file in which   you import so it is refreshed.
+The main thing to save time when importing batches of stock prices and market capitalizations was to using Batch API Calls to Improve Performance. Then we calculated the number of shares to buy to have an equal weight of S&P 500 value of stocks.
+
 
 ## 4. Project 2: Quantitative Momentum Screener
 Momentum investing means investing in assets that have increased in price the most.
